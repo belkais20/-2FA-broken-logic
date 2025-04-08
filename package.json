@@ -1,12 +1,27 @@
 {
-  "name": "homework",
+  "name": "session-based",
   "version": "1.0.0",
+  "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belkais20/-2FA-broken-logic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belkais20/-2FA-broken-logic/issues"
+  },
+  "homepage": "https://github.com/belkais20/-2FA-broken-logic#readme"
 }
